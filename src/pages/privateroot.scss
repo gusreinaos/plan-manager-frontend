@@ -1,0 +1,44 @@
+html{
+  height: 100%;
+}
+
+.container {
+
+}
+
+.left-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  min-height: 600px;
+}
+
+.right-container {
+  background-color: #3BBB85;
+  min-height: 600px;
+}
+
+li{
+  list-style-type: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.user-data{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture{
+  height: 40px;
+  width: 40px;
+}
+
+.profile-name{
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}

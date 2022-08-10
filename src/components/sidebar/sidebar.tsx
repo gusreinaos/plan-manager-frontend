@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-import './sidebar.scss'
+import './sidebar.scss';
 
 interface ISidebarState{
     date: Date;
@@ -22,8 +22,37 @@ class Sidebar extends React.Component<any, ISidebarState> {
     render() {
         return (
             <div className={"sidebar"}>
-                <h1>Hello, world!</h1>
-                <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+
+                <div className="col-2 menu-container">
+
+                    <div className="user-data">
+
+                        <img src="./Assets/Circle-icons-profile.svg.png" className="profile-picture"/>
+                        <h3 className="profile-name">Username</h3>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            Home
+                        </li>
+
+                        <li>
+                            My Friends
+                        </li>
+
+                        <li>
+                            Plans
+                        </li>
+
+                        <li>
+                            Invitations
+                        </li>
+
+                    </ul>
+
+                </div>
+
             </div>
         );
     }

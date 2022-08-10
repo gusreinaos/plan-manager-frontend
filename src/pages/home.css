@@ -1,0 +1,62 @@
+.profile-name {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.home-intro {
+  justify-content: space-between;
+  padding: 30px;
+  display: flex;
+}
+
+.section-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.create-plan-button {
+  background-color: white;
+  border-radius: 30px;
+  padding-top: 25px;
+  padding-left: 70px;
+}
+
+.name-home-information-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.home-information-container {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 600px;
+  padding-bottom: 30px;
+}
+
+.incoming-plans {
+  background-color: white;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar {
+  background-color: white;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=home.css.map */
