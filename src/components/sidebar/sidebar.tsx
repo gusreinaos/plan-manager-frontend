@@ -21,7 +21,7 @@ class Sidebar extends React.Component<any, ISidebarState> {
 
     render() {
         return (
-            <div>
+            <div className={"sidebar"}>
                 <h1>Hello, world!</h1>
                 <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
             </div>

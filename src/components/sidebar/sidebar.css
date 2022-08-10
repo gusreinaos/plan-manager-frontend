@@ -2,4 +2,11 @@ h2 {
   color: aqua;
 }
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  min-height: 600px;
+}
+
 /*# sourceMappingURL=sidebar.css.map */
