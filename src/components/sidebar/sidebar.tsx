@@ -27,7 +27,7 @@ class Sidebar extends React.Component<any, ISidebarState> {
 
                     <div className="user-data">
 
-                        <img src="./Assets/Circle-icons-profile.svg.png" className="profile-picture"/>
+                        <img src="../assets/Circle-icons-profile.svg.png" className="profile-picture" alt={""}/>
                         <h3 className="profile-name">Username</h3>
 
                     </div>

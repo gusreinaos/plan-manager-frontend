@@ -7,57 +7,50 @@ import './home.scss';
 const HomePage: FC = (props) => {
     return(
         <Rootpage>
-            <div className={"right-container"}>
 
-                <div className="col-10 dashboard-container">
+            <div className="row home-intro">
 
-                    <div className="row home-intro">
+                <div className="col-10 section-name">
 
-                        <div className="col-10 section-name">
+                    🏠Home
 
-                            🏠Home
+                </div>
 
-                        </div>
+                <Button className="col-2 create-plan-button btn">
 
-                        <Button className="col-2 create-plan-button btn">
+                    + Create Plan
 
-                            + Create Plan
+                </Button>
 
-                        </Button>
+            </div>
 
-                    </div>
+            <div className="row name-home-information-container">
 
-                    <div className="row name-home-information-container">
+                <div className="col-4">
 
-                        <div className="col-4">
+                    <u>😄 Incoming Plans</u>
 
-                            <u>😄 Incoming Plans</u>
+                </div>
 
-                        </div>
+                <div className="col-6">
 
-                        <div className="col-6">
+                    <u>📅 Calendar</u>
 
-                            <u>📅 Calendar</u>
+                </div>
 
-                        </div>
+            </div>
 
-                    </div>
+            <div className="row home-information-container">
 
-                    <div className="row home-information-container">
+                <div className="col-4 incoming-plans">
 
-                        <div className="col-4 incoming-plans">
+                    Backend call
 
-                            Backend call
+                </div>
 
-                        </div>
+                <div className="col-6 calendar">
 
-                        <div className="col-6 calendar">
-
-                            Google API
-
-                        </div>
-
-                    </div>
+                    Google API
 
                 </div>
 
